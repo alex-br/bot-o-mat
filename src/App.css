@@ -1,0 +1,119 @@
+body {
+    background: #f7f7f7;
+}
+.App {
+  text-align: center;
+}
+
+
+.completed {
+    color: #53af26;
+    text-decoration: line-through;
+}
+
+/* Forms */
+form {
+    box-sizing:border-box;
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+label {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.ln {
+    margin-top: 30px;
+}
+.ln input {
+    padding: 10px 20px;
+    border-color: #d9d9d9;
+}
+
+input, select {
+    border: 1px solid #d9d9d9;
+    margin: 0px;
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.btn {
+    width: 100px;
+    background: #ececec;
+}
+
+.btn:hover {
+    background:#d3d3d3;
+    cursor:pointer;
+}
+.clear {
+    margin-left:10px;
+}
+.error {
+	color: #C00;
+	margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Leaderboard */
+.leaderboard {
+    background: #eee;
+    padding: 20px;
+    border-bottom: 1px solid #dd1d21;
+}
+.leaderboard h1 {
+	margin: 0;
+    padding: 0;
+}
+.completed-task {
+	font-style: italic;
+}
+
+/* Robot */
+h3 {
+    text-transform: capitalize;
+}
+.robot {
+    display: inline-block;
+    background: #fff;
+    width: 300px;
+    border: 1px solid #d9d9d9;
+    margin: 20px;
+}
+.robot .task {
+	padding: 5px;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 10px;
+	text-align: left;
+}
+.robot img {
+	height: 80%;
+	display: block;
+    margin: 0 auto;
+}
+.tasks {
+    box-sizing: border-box;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+
